@@ -1,5 +1,6 @@
 
 # Obsidian system/config files
+.obsidian
 .obsidian/plugins/
 .obsidian/cache/
 .obsidian/workspace.json

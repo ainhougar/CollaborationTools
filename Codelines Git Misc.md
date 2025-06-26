@@ -1,8 +1,9 @@
 
-## Delete files (Caution this deletes files locally too)
+## Delete files 
 
-**To delete all files in the remote repository** 
+**Removes files from GitHub, NOT from local disk** ("--cached" is important here)
+`git rm -r --cached [file_name]`
 
-`rm -rf *`
-`rm -rf .[^.] .??*`  (#Removes hidden files/folders like .gitignore, except the .git directory)
+**Removes files from GitHub & the local disk**
+`git rm -r -- [file_name]
 
